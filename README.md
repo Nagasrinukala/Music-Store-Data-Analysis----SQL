@@ -8,11 +8,9 @@ Through carefully crafted SQL queries, the project solves real-world business qu
 
 ### Creating Tables
 The project begins by creating structured tables for storing music store data, including information about genres, media types, employees, customers, artists, albums, tracks, invoices, and more. Primary and foreign keys are used to ensure data integrity and meaningful relationships between different entities.
-<img width="868" height="933" alt="image" src="https://github.com/user-attachments/assets/e16255c4-ebb0-4495-bf00-a52e474cd94d" />
 
 ### Importing Data Into Tables
 Data is imported into tables in an orderly manner using the LOAD DATA INFILE command for bulk data loads from CSV files, ensuring efficient population of large datasets like tracks. Additionally, the import wizard option in database management tools provides a user-friendly interface for importing data step-by-step, allowing customization and validation during the import process.
-<img width="959" height="1080" alt="image" src="https://github.com/user-attachments/assets/aaf70176-dc53-4831-b18c-4e2819b263a3" />
 
 ### Challenges we face
 There are actually 9 employees in total, but after importing the CSV file into the Employee table, we noticed it contained details for only 8 employees. Upon reviewing the entire CSV file, we decided to manually add the 9th employee's details into the Employee table.
